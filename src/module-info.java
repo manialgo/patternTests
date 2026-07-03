@@ -4,5 +4,5 @@
 /**
  * 
  */
-module patternTest {
+module patternTests {
 }
