@@ -60,6 +60,7 @@ Output format :-
 For each occurrence of the pattern in the text, print "Pattern found at index X" in a new line, where X the indices where the pattern is found within the text string.
 
 Refer to the sample output for the formatting specifications.
+NOTE: Support image is added for clarification
 
 Code constraints :-
 The text and the pattern will only contain uppercase and lowercase English letters.
