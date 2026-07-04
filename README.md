@@ -5,25 +5,25 @@ Programming Languages: _Java, C_
 Problem Level: _Easy, Medium, Hard_
 File Format: _<file_name.java>_ , _<file_name.c>_
 Inside a file Code format:
-  Problem solution
-    Package Name --> _Test conducted date_
-    Class Name --> _File name_
-      Method 1
-      Method 2
+  - Problem solution
+    * Package Name --> _Test conducted date_
+    * Class Name --> _File name_
+    * Method 1
+    * Method 2
       .
       .
-      Method n
-      main method
-    Commends
-      Problem Statement:-
-      Input Format:-
-      Output Format:-
-      Code Constraints:-
-      Sample Test Cases:-
-        Input 1:-
-        Output 2:-
-        Input 2:- _(if required)_
-        Output 2:- _(if required)_
+    * Method n
+    * main method
+    * Commends
+      * Problem Statement:-
+      * Input Format:-
+      * Output Format:-
+      * Code Constraints:-
+      * Sample Test Cases:-
+        * Input 1:-
+        * Output 2:-
+        * Input 2:- _(if required)_
+        * Output 2:- _(if required)_
         
 ```
 This repository actively working on the updating the day-to-day problems from 8 June 2026 * *** ****.
