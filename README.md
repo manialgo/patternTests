@@ -1,5 +1,5 @@
-#Java-Learning  
-##Learning-Curve
+# Java-Learning  
+## Learning-Curve
 
 In my college I'm are having the hectic schedule of 8-8 learning. With this the learning curve is exponential to me. There I solved the programming problem from the _level Easy_ to _level Hard_.
 There I want to create a memory report of all the program, analytical part, verbal and non-verbal reasoning parts all.
