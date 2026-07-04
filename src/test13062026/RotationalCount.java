@@ -31,3 +31,47 @@ public class RotationalCount {
         sc.close();
     }
 }
+
+/*
+
+Problem Statement:-
+Ram wants to test Raju's knowledge of her programming skills, so she gave her a tough task to test her. Given an array arr[] of N integers, write a program to find the maximum that maximizes the sum of the value of i*arr[i] where i varies from 0 to n-1.
+
+Example:-
+Input:-
+4
+8 3 1 2
+
+Output:-
+29
+
+Explanation:-
+Let us see all rotations
+{8, 3, 1, 2} = 8*0 + 3*1 + 1*2 + 2*3 = 11
+{3, 1, 2, 8} = 3*0 + 1*1 + 2*2 + 8*3 = 29
+{1, 2, 8, 3} = 1*0 + 2*1 + 8*2 + 3*3 = 27
+{2, 8, 3, 1} = 2*0 + 8*1 + 3*2 + 1*1 = 17
+
+The maximum value among them is 29.
+
+Input format :-
+The first input is an integer that denotes N, the size of the array.
+The second input consists of series of integers separated by space that denotes the array values.
+
+Output format :-
+Output is an integer that denotes the maximum sum.
+
+Sample test cases :-
+Input 1 :-
+4
+8 3 1 2
+Output 1 :-
+29
+
+Input 2 :-
+5
+32 45 89 56 12
+Output 2 :-
+613
+
+*/
