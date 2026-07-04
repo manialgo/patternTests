@@ -3,7 +3,7 @@ package test19062026;
 import java.util.Scanner;
 import java.util.HashSet;
 
-class StringAlphabets{
+public class StringAlphabets{
 	//simple method
 	/*
 	private static boolean stringMatch2(String str1, String str2){
@@ -46,8 +46,7 @@ class StringAlphabets{
             	break;
             }
         }
-        
-        
+		
         return flag1 && flag2;
     }
    public static void main(String[] args){
@@ -59,3 +58,34 @@ class StringAlphabets{
         sc.close();
     }
 }
+
+/*
+
+Problem Statement:-
+Ramu and Raju are playing a word game. They need to write a program to check if the two strings use the same base alphabets. Two strings are said to be the same if they have the same base alphabets to form the word.
+
+Input format :-
+The input contains two strings in separate lines.
+
+Output format :-
+The output displays 'True' if two strings have the same base alphabets.
+
+Otherwise, the output displays 'False' if two strings have different base alphabets.
+
+Code constraints :-
+Input Size : |S| <= 1000000
+
+Sample test cases :-
+Input 1 :-
+rescue
+curse
+Output 1 :-
+True
+
+Input 2 :-
+domain
+network
+Output 2 :-
+False
+
+*/
