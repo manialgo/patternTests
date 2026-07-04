@@ -38,3 +38,46 @@ public class AreaOfOverlap {
 		sc.close();
 	}
 }
+
+/*
+
+Problem description:-
+A student has to solve an entire workbook of problems related to finding the area of the intersection of two circles. Instead of solving similar problems repeatedly, the student decides to write a program that would solve all these similar problems.
+
+Example:-
+Input 1:-
+3 2 4
+-2 0 5
+
+Output 1:-
+18.016244
+
+Explanation:-
+As per the mathematical calculation, this is the area of intersection of these two given circles.
+
+Input format :-
+The first line of the input consists of three space-separated integers – x1, y1 and r1 where x1 and y1 represent the x and y coordinates of the center of the first circle and r1 represents the radius of the first circle.
+
+The second line of the input consists of three space-separated integers – x2, y2 and r2 where x2 and y2 represent the x and y coordinates of the center of the second circle and r2 represents the radius of the second circle.
+
+Output format :-
+Print a real number representing the area of the intersection of two circles rounded up to 6 decimal places.
+
+Code constraints :-
+0 < r1, r2 < 104
+
+Sample test cases :-
+Input 1 :-
+3 2 4
+-2 0 5
+
+Output 1 :-
+18.016244
+
+Input 2 :-
+0 5 3
+-2 0 2
+Output 2 :-
+0.000000
+
+*/
