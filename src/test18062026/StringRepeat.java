@@ -73,25 +73,25 @@ public class StringRepeat {
 /*
 
 Problem Statement:-
-A user mistakenly entered a string with repeated characters, and they need to remove the duplicates to ensure each character appears only once while maintaining the original order. Neha, who is working on a text processing tool, needs to implement a function that will clean up strings by removing duplicate characters. 
+In a book review system, Neha is developing an application that analyzes user reviews. The application needs to determine the first unique word in a user's review. A word is considered unique if it appears only once in the review string. 
 
-Your task is to write a program that removes all duplicate characters from the string while keeping the order of the characters unchanged. 
+Your task is to write a program that finds the first word in the review that occurs only once. If no such word exists, the program should print -1. 
 
 Example:-
 Input:-
-aabccdeff
+the quick brown fox jumped over the lazy dog
 
 Output:-
-abcdef
+quick
 
 Explanantion:-
-The first occurrence of each character is kept, and the duplicates are removed.
+"quick" is the first word that occurs only once in the review.
 
 Input format :-
-The first line contains a string s, which may contain repeated characters.
+The first line contains a string s, representing the user review, where words are separated by spaces.
 
 Output format :-
-Print the string with duplicates removed, keeping the original order of characters.
+Print the first unique word in the string. If no unique word exists, print -1.
 
 Refer to the sample output for the formatting specifications.
 
@@ -100,23 +100,9 @@ Code constraints :-
 
 Sample test cases :-
 Input 1 :-
-aabccdeff
+the quick brown fox jumped over the lazy dog
+
 Output 1 :-
-abcdef
-
-Input 2 :-
-AaBbCcAa
-Output 2 :-
-AaBbCc
-
-Input 3 :-
-abc123abc1
-Output 3 :-
-abc123
-
-Input 4 :-
-hello, world,
-Output 4 :-
-helo, wrd
+quick
 
 */
