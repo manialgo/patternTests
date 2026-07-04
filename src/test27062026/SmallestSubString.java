@@ -1,4 +1,4 @@
-package _27062026;
+package test27062026;
 
 import java.util.Scanner;
 import java.util.HashMap;
