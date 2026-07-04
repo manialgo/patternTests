@@ -9,7 +9,7 @@ There I want to create a memory report of all the program, analytical part, verb
   - Problem Level: _Easy, Medium, Hard_  
   - File Format: _<file_name.java>_ , _<file_name.c>_  
 
-Inside a file Code format:
+> Inside a file Code format:
   - Problem solution
     - Package Name --> _Test conducted date_
     - Class Name --> _File name_
@@ -23,7 +23,7 @@ Inside a file Code format:
       - Problem Statement:-
       - Input Format:-
       - Output Format:-
-       Code Constraints:-
+      - Code Constraints:-
       - Sample Test Cases:-
         - Input 1:-
         - Output 2:-
