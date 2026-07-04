@@ -1,7 +1,7 @@
 package test20062026;
 
 import java.util.Scanner;
-class SecondLargestElement{
+public class SecondLargestElement{
     public static int secondLargestInArray(int arr[], int N){
         int max1=arr[0], max2=Integer.MIN_VALUE;
         for(int i=1; i<N; i++){
@@ -22,3 +22,27 @@ class SecondLargestElement{
         sc.close();
     }
 }
+
+/*
+
+Problem  statement:-
+Write a program to get an integer array find the second largest element (where array has only distinct elements)
+
+Input format :-
+Value of N in first line
+N number of elements separated by single space in next line
+
+Output format :-
+Second largest number in array
+
+Code constraints :-
+N>0
+
+Sample test cases :-
+Input 1 :-
+10
+2 10 11 20 -5 40 60 90 1 100
+Output 1 :-
+90
+
+*/
