@@ -21,3 +21,43 @@ public class HypenMovingSum{
         sc.close();
     }
 }
+
+/*
+
+Problem Statement:-
+You are required to implement the following function:
+void MoveHyphen(char str[]); 
+
+The function accepts a string “str” of length ‘n’, that contains alphabets and hyphens (-). Implement the function to move all hyphens(.) in the string to the front of the given string. 
+
+Note:-
+Return null if str is null. 
+
+Example:-
+Input:-
+Move-Hyphens-to-Front 
+
+Output:-
+---MoveHyphenstoFront 
+
+Explanation:-
+The string “Move-Hyphens -to-front” has 3 hyphens (.), which are moved to the front of the string, this output is “— MoveHyphen” 
+
+Input format :-
+The input is the string.
+
+Output format :-
+The output is the string with the hyphen moved to the left end.
+
+Sample test cases :-
+Input 1 :-
+Iam-neo
+Output 1 :-
+-Iamneo
+
+Input 2 :-
+Move-Hyphens-to-Front
+Output 2 :-
+---MoveHyphenstoFront
+
+*/
