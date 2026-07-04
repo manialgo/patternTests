@@ -50,3 +50,40 @@ public class RunLengthEncoding {
 */
     
 }
+
+/*
+
+Problem Statement:-
+A satellite transmits data as a stream of characters. To save bandwidth, the system uses a basic compression method called Run-Length Encoding (RLE). This replaces consecutive occurrences of a character with the character followed by the count of its repetitions.
+
+Write a program to compress a given string using this method.
+
+Input format :-
+The input consists of a single string containing uppercase or lowercase letters.
+
+Output format :-
+Print the compressed string.
+
+Refer to the sample output for the formatting specifications.
+
+Code constraints :-
+The given testcases fall under the following constraints :
+String length ≤ 100
+
+Sample test cases :-
+Input 1 :-
+AAABBB
+Output 1 :-
+A3B3
+
+Input 2 :-
+abc
+Output 2 :-
+a1b1c1
+
+Input 3 :-
+WWWWWWWWWWWWBWWWWWWWWWWWWBBBww
+Output 3 :-
+W12B1W12B3w2
+
+*/
