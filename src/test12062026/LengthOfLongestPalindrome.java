@@ -21,3 +21,23 @@ public class LengthOfLongestPalindrome {
 		sc.close();
 	}
 }
+
+/*
+
+Problem Statement:-
+Given a string s that consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters. Letters are case-sensitive.
+For example, "Aa" is not considered a palindrome here.
+
+Input format :-
+The input consists of a string.
+
+Output format :-
+The output prints the length of the longest palindrome that can be built with the given letters.
+
+Sample test cases :-
+Input 1 :-
+abccccdd
+Output 1 :-
+7
+
+*/
