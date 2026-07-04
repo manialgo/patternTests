@@ -27,6 +27,6 @@ Inside a file Code format:
         
 ```
 This repository actively working on the updating the day-to-day problems from 8 June 2026 * *** ****.
-With this I'm creating on my own and AI tools added to create it.
+With this I'm creating on my own and no AI tools added to create it.
 ```
 #Thank you spectators!
