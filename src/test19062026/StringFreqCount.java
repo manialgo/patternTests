@@ -25,3 +25,28 @@ class StringFreqCount{
         sc.close();
     }
 }
+
+/*
+
+Problem Statement:-
+Write a program to count the frequency of words appearing in a string.
+
+Input format :-
+The input consists of a sentence (space-separated words or a string).
+
+Output format :-
+The output consists of the frequency of each word in the sentence.
+
+Refer to the sample output for formatting specifications.
+
+Sample test cases :-
+Input 1 :-
+aero electric electric computer aero nautic nautic computer latent
+Output 1 :-
+Frequency of aero is 2
+Frequency of electric is 2
+Frequency of computer is 2
+Frequency of nautic is 2
+Frequency of latent is 1
+
+*/
