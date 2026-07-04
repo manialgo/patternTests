@@ -1,6 +1,9 @@
+#Java Learning
+##Learning Curve
+
 In my college I'm are having the hectic schedule of 8-8 learning. With this the learning curve is exponential to me. There I solved the programming problem from the _level Easy_ to _level Hard_.
 There I want to create a memory report of all the program, analytical part, verbal and non-verbal reasoning parts all.
-This repo specially made for the Programming Solutions.
+> This repo specially made for the Programming Solutions.
 Programming Languages: _Java, C_
 Problem Level: _Easy, Medium, Hard_
 File Format: _<file_name.java>_ , _<file_name.c>_
