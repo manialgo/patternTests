@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TotalNumberOfProples{
+public class TotalNumberOfPeoples{
     public static void main(String[] args){
         Scanner sc =  new Scanner(System.in);
         int girls = sc.nextInt();
