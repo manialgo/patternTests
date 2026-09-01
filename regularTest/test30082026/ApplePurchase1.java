@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ApplePurchase{
+public class ApplePurchase1{
     
     private static int applePurchase(int N, int M1, int P1, int M2, int P2){
         int min=Integer.MAX_VALUE, rem, y, x, currCost;
