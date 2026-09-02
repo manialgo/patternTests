@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
-public class MinimumSubArrayLength{
+import java.util.Scanner;
+
+public class MinimumSubarrayLength{
     
     private static int findMinSubArrayLengthExceedingTarget(int[] nums, int size, int target){
         int start=0, end, minLength = Integer.MAX_VALUE, sum=0, length;
@@ -21,24 +23,34 @@ public class MinimumSubArrayLength{
     
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        if(!sc.hasNextInt()) System.exit(0);
+        if(!sc.hasNextInt()) {
+        	sc.close();
+        	return;
+        }
         
-        int size = sc.nextInt();
-        if(size==0) System.exit(0);
-	
-        int[] nums = new int[size];
-        for(int i=0; i<size; i++) nums[i] = sc.nextInt();
-        int target = sc.nextInt();
+        try {
+        	int size = sc.nextInt();
+            if(size==0) {
+            	sc.close();
+            	return;
+            }
+    	
+            int[] nums = new int[size];
+            for(int i=0; i<size; i++) nums[i] = sc.nextInt();
+            int target = sc.nextInt();
+            
+            int minLength = findMinSubArrayLengthExceedingTarget(nums, size, target);
+            
+            if(minLength == Integer.MAX_VALUE) System.out.println("Not Possible");
+            else System.out.println(minLength);
+        } catch(Exception e) {
+        	e.printStackTrace();
+        }
         
-        int minLength = findMinSubArrayLengthExceedingTarget(nums, size, target);
-        
-        if(minLength == Integer.MAX_VALUE) System.out.println("Not Possible");
-        else System.out.println(minLength);
         
         sc.close();
     }
 }
-
 
 /*
 
