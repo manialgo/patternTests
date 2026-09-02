@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
-
 public class MinimumSubarrayLength{
     
     private static int findMinSubArrayLengthExceedingTarget(int[] nums, int size, int target){
@@ -24,6 +22,7 @@ public class MinimumSubarrayLength{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         if(!sc.hasNextInt()) {
+            System.out.print("User input invalid !");
         	sc.close();
         	return;
         }
@@ -31,6 +30,7 @@ public class MinimumSubarrayLength{
         try {
         	int size = sc.nextInt();
             if(size==0) {
+                System.out.print("Array size can't be zero !");
             	sc.close();
             	return;
             }
@@ -46,8 +46,7 @@ public class MinimumSubarrayLength{
         } catch(Exception e) {
         	e.printStackTrace();
         }
-        
-        
+                
         sc.close();
     }
 }
