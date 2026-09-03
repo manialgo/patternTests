@@ -1,4 +1,61 @@
+import java.util.Scanner;
 
+public class ArrayMultiplicationProgram{
+	
+	private static int[] arrayAlteration(int[] nums, int size) {
+		if(size == 1) return nums;
+		
+		if(size == 2) {
+			nums[0] = nums[0] * nums[1];
+			nums[1] = nums[0];
+			return nums;
+		}
+		
+		int prev = nums[0], temp, i;
+		nums[0] = nums[0] * nums[1];
+		
+		for(i = 1; i < size-1; i++) {
+			temp = nums[i];
+			nums[i] = prev * nums[i+1];
+			prev = temp;
+		}
+		nums[i] = prev * nums[i];
+		
+		return nums;
+	}
+	
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		
+		if(!sc.hasNextInt()) {
+			System.out.println("Invalid user input!");
+			sc.close();
+			return;
+		}
+		
+		try {
+			int size = sc.nextInt();
+			
+			if(size<=0 || size >10) {
+				System.out.println("Invalid use input! Range Array Size[1,10]");
+				sc.close();
+				return;
+			}
+			
+			int[] nums = new int[size];
+			for(int i=0; i<size; i++) nums[i] = sc.nextInt();
+			
+			int[] result = arrayAlteration(nums, size);
+			for(int num : result) System.out.print(num+" ");
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		sc.close();
+	}
+	
+}
 
 /*
 
