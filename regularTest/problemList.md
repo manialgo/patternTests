@@ -6,3 +6,37 @@ regularTest
   |--- test01092026
         |--- DiscountArray.java
         |--- UnlockKey.java
+  |--- test02092026
+        |--- LengthOfLongestPalindrome.java
+        |--- MinimumSubArrayLength.java
+        |--- StringComparator.java
+  |--- test03092026
+        |--- ArrayMultiplicationProgram.java
+        |--- PerfectNumber.java
+        |--- SubStringFormation.java
+  |--- test06092026
+        |--- GroupAnagram
+             |--- GroupAnagram1.java
+             |--- GroupAnagram2.java
+             |--- GroupAnagram3.java
+        |--- ProblemStatement.txt
+        |--- RemoveElement.java
+        |--- SearchInsertPosition.java
+  |--- test08092026
+        |--- mid_aged_seats.c
+        |--- subsequence_check.c
+  |--- test23082026
+        |--- NonDecreasingOrder.java
+        |--- ParenthesesArrangement.java
+        |--- StringProcesses.java
+  |--- test27082026
+        |--- AlternateSort.java
+        |--- SubStringArrange.java
+  |--- test30082026
+        |--- ApplePurchase1.java
+        |--- ApplePurchase2.java
+        |--- CountSubarrays.java
+  |--- test31082026
+        |--- ChocolateRemain.java
+        |--- StringProblem.java
+  |--- problemList.md
