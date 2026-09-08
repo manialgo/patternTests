@@ -35,8 +35,9 @@ regularTest
         |--- AlternateSort.java
         |--- SubStringArrange.java
   |--- test30082026
-        |--- ApplePurchase1.java
-        |--- ApplePurchase2.java
+        |--- ApplePurchase
+             |--- ApplePurchase1.java
+             |--- ApplePurchase2.java
         |--- CountSubarrays.java
   |--- test31082026
         |--- ChocolateRemain.java
