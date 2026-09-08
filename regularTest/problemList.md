@@ -23,7 +23,9 @@ regularTest
         |--- RemoveElement.java
         |--- SearchInsertPosition.java
   |--- test08092026
+        |--- digital_root_of_a_number.c
         |--- mid_aged_seats.c
+        |--- number_of_steps_in_n_days.c
         |--- subsequence_check.c
   |--- test23082026
         |--- NonDecreasingOrder.java
