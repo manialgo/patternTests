@@ -34,3 +34,6 @@ This repository actively working on the updating the day-to-day problems from 8 
 With this I'm creating on my own and no AI tools added to create it.
 ```
 Thank you spectators!
+
+
+[Sub-Directory](regularTest/problemList.md)
