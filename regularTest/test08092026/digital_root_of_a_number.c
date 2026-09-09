@@ -16,6 +16,10 @@ int digital_root(int n){
 int main(){
     int n, sum;
     scanf("%d", &n);
+    if(n<10){
+        printf("%d", n);
+        return 0;
+    }
     int root_value = digital_root(n);
     printf("%d", root_value);
     return 0;
